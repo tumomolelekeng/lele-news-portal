@@ -1,0 +1,49 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	background: #f4f4f4;
+}
+header{
+	background: #222;
+	color: blue;
+	padding: 20px;
+	text-align: center;
+}
+nav ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+nav ul li{
+	margin: 10px;
+}
+nav ul li a{
+	color: mediumpurple;
+	text-decoration: none;
+	font-weight: bold;
+}
+.hero{
+	text-align: center;
+	padding: 40px;
+	background: #ddd;
+}
+.news{
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+}
+article{
+	background: green;
+	padding: 15px;
+	border-radius: 5px;
+}
+article img{
+	width: 100%;
+}
+footer{
+	text-align: center;
+	background: #222;
+	color: red;
+	padding: 10px;
+}
